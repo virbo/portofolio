@@ -26,7 +26,7 @@ const Beranda = () => {
     return (
         <Columns>
             <Columns.Column size={6}>
-                <Image src={foto}/>
+                <Image src={foto} alt="Yusuf Ayuba" />
                 <h1>Keahlian</h1>
                 <Columns>
                     <Columns.Column size={6}>
@@ -53,7 +53,7 @@ const Beranda = () => {
                         </Columns>
                     </Columns.Column>
                     <Columns.Column size={6}>
-                        <h5></h5>
+                        <br />
                         <Columns>
                             <Columns.Column size={6}>Yii2</Columns.Column>
                             <Columns.Column size={6}><Progress max={100} value={85} color="primary" size="small" /></Columns.Column>
