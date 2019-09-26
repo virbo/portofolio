@@ -4,7 +4,7 @@ import Container from 'react-bulma-components/lib/components/container';
 import Content from 'react-bulma-components/lib/components/content';
 
 import Header from './Header';
-import Footer from './Footer';
+import Footers from './Footer';
 import MyRouter from '../../MyRouter';
 import Breadcrumbs from '../../components/breadcrumbs';
 
@@ -13,7 +13,7 @@ const Layouts = (props) => {
     return (
         <>
             <Header lokasi={lokasi} />
-            <Container style={{marginTop: 20}} fluid>
+            <Container style={{marginTop: 20, minHeight: 500}} fluid>
                 <Breadcrumbs route={MyRouter} lokasi={lokasi} />
                 <Content style={{marginTop: 20}}>
                     <Switch>
@@ -37,7 +37,7 @@ const Layouts = (props) => {
                     </Switch>
                 </Content>
             </Container>
-            <Footer />
+            <Footers />
         </>
     );
 }
