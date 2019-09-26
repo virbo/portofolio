@@ -10,7 +10,7 @@ const Header = ( props ) => {
     const lokasi = props.lokasi.pathname;
     return (
         <Navbar
-            color={'primary'}
+            color={'info'}
             active={isOpen}
         >
             <Navbar.Brand>
