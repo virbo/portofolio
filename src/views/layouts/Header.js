@@ -1,8 +1,13 @@
 import React, { useState } from 'react';
 import Navbar from 'react-bulma-components/lib/components/navbar';
 
-const Header = ({ props }) => {
+import menu from '../../components/menu';
+
+const Header = ( props ) => {
     const [isOpen, setIsOpen] = useState(false);
+    const menus = menu.items;
+    
+    const lokasi = props.lokasi.pathname;
     return (
         <Navbar
             color={'primary'}
@@ -19,9 +24,13 @@ const Header = ({ props }) => {
             </Navbar.Brand>
             <Navbar.Menu>
                 <Navbar.Container position="end">
-                    <Navbar.Item href="/">Beranda</Navbar.Item>
-                    <Navbar.Item href="/portofolio">Portofolio</Navbar.Item>
-                    <Navbar.Item href="/resume">Resume</Navbar.Item>
+                    {
+                        menus.map((item, key) => {
+                            return (
+                                <Navbar.Item href={item.url} key={key} active={lokasi === item.url ? true : false}>{item.label}</Navbar.Item>
+                            );
+                        })
+                    }
                 </Navbar.Container>
             </Navbar.Menu>
         </Navbar>
