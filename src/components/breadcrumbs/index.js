@@ -1,5 +1,6 @@
 import React from 'react';
 import Breadcrumb from 'react-bulma-components/lib/components/breadcrumb';
+import Icon from 'react-bulma-components/lib/components/icon';
 
 const Breadcrumbs = (props) => {
     const routes = props.route;
@@ -9,15 +10,7 @@ const Breadcrumbs = (props) => {
         return route.path === lokasi ? route : false;
     })
 
-    const item = aroute.path === '/beranda' ? 
-        [
-            {
-                name: 'Beranda',
-                url: "/",
-                active: true
-            },
-        ] : 
-        [
+    const item = [
             {
                 name: 'Beranda',
                 url: "/"
@@ -29,11 +22,8 @@ const Breadcrumbs = (props) => {
             }
         ];
     
-    return (
-        <Breadcrumb 
-            items={item}
-        />
-    );
+    return aroute.path !== '/beranda' ? <Breadcrumb items={item} /> : <Icon icon="home" />;
+    
 }
 
 export default Breadcrumbs;
