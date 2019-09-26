@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from 'react-bulma-components/lib/components/navbar';
 import Container from 'react-bulma-components/lib/components/container';
+import Button from 'react-bulma-components/lib/components/button';
 
 import menu from '../../components/menu';
 
@@ -32,7 +33,7 @@ const Header = ( props ) => {
                                 <Navbar.Item href={item.url} key={key} active={lokasi === item.url ? true : false}>{item.label}</Navbar.Item>
                             );
                         })
-                    }
+                    }<Navbar.Item href="https://dutainformasi.net" target="_blank">Blog</Navbar.Item>
                 </Navbar.Container>
             </Navbar.Menu>
             </Container>
