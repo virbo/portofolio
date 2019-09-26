@@ -6,6 +6,7 @@ import Heading from 'react-bulma-components/lib/components/heading';
 import Content from 'react-bulma-components/lib/components/content';
 import Button from 'react-bulma-components/lib/components/button';
 import Progress from 'react-bulma-components/lib/components/progress';
+import Image from 'react-bulma-components/lib/components/image';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -25,7 +26,7 @@ const Beranda = () => {
     return (
         <Columns>
             <Columns.Column size={6}>
-                <Card.Image src={foto} />
+                <Image src={foto}/>
                 <h1>Keahlian</h1>
                 <Columns>
                     <Columns.Column size={6}>
