@@ -6,12 +6,15 @@ import Content from 'react-bulma-components/lib/components/content';
 import Header from './Header';
 import Footer from './Footer';
 import MyRouter from '../../MyRouter';
+import Breadcrumbs from '../../components/breadcrumbs';
 
-const Layouts = () => {
+const Layouts = (props) => {
+    const lokasi = props.location;
     return (
         <>
-            <Header />
-            <Container fluid>
+            <Header lokasi={lokasi} />
+            <Container style={{marginTop: 20}} fluid>
+                <Breadcrumbs route={MyRouter} lokasi={lokasi} />
                 <Content style={{marginTop: 20}}>
                     <Switch>
                         {
