@@ -1,8 +1,12 @@
+import React from 'react';
+
 import Loadable from 'react-loadable';
+import Loader from 'react-bulma-components/lib/components/loader';
+
 import Layouts from './views/layouts';
 
 function loading() {
-    return "Loading...";
+    return (<Loader />);
 }
 
 const Home = Loadable({
