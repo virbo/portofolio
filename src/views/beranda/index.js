@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Columns from 'react-bulma-components/lib/components/columns';
 import Card from 'react-bulma-components/lib/components/card';
 import Media from 'react-bulma-components/lib/components/media';
@@ -17,6 +17,10 @@ const Beranda = () => {
     const [isLp, setLp] = useState(false);
     const [isAkper, setAkper] = useState(false);
     const [isUml, setUml] = useState(false);
+
+    useEffect(() => {
+        document.title = 'Beranda :: Personal Portofolio';
+    }, [])
 
     return (
         <Columns>

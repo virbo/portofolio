@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import Navbar from 'react-bulma-components/lib/components/navbar';
 import Container from 'react-bulma-components/lib/components/container';
-import Button from 'react-bulma-components/lib/components/button';
+import Image from 'react-bulma-components/lib/components/image';
 
 import menu from '../../components/menu';
+import logo from '../../components/img/logo.png';
 
 const Header = ( props ) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -17,8 +18,8 @@ const Header = ( props ) => {
         >
             <Container fluid>
             <Navbar.Brand>
-                <Navbar.Item renderAs="a" href="/">
-                    YA
+                <Navbar.Item href="/beranda">
+                    YUSUFAYUBA
                 </Navbar.Item>
                 <Navbar.Burger
                     //active={isOpen}
