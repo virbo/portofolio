@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from 'react-bulma-components/lib/components/navbar';
+import Container from 'react-bulma-components/lib/components/container';
 
 import menu from '../../components/menu';
 
@@ -13,6 +14,7 @@ const Header = ( props ) => {
             color={'info'}
             active={isOpen}
         >
+            <Container fluid>
             <Navbar.Brand>
                 <Navbar.Item renderAs="a" href="/">
                     YA
@@ -33,6 +35,7 @@ const Header = ( props ) => {
                     }
                 </Navbar.Container>
             </Navbar.Menu>
+            </Container>
         </Navbar>
     );
 }
