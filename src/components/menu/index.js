@@ -1,15 +1,15 @@
 export default {
     items: [
         {
-            name: 'Beranda',
+            label: 'Beranda',
             url: '/beranda',
         },
         {
-            name: 'Portofolio',
+            label: 'Portofolio',
             url: '/portofolio',
         },
         {
-            name: 'Resume',
+            label: 'Resume',
             url: '/resume',
         },
     ]
