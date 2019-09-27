@@ -3,12 +3,12 @@
   "name": "Personal Portofolio",
   "icons": [
     {
-      "src": "logo.png",
+      "src": "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/logo.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo.png",
+      "src": "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
