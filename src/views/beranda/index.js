@@ -12,8 +12,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import {faGithub, faLinkedin, faFacebook, faTwitter} from '@fortawesome/free-brands-svg-icons';
 
-//import foto from 'https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/selfi.jpg';
-
 const Beranda = () => {
     const [isLp, setLp] = useState(false);
     const [isAkper, setAkper] = useState(false);
