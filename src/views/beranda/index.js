@@ -29,60 +29,85 @@ const Beranda = () => {
                 <Image src={foto} alt="Yusuf Ayuba" />
                 <h1>Keahlian</h1>
                 <Columns>
+                    <Columns.Column><h5>Pemrograman</h5></Columns.Column>
+                </Columns>
+                <Columns>
                     <Columns.Column size={6}>
-                        <h5>Pemrograman</h5>
                         <Columns>
-                            <Columns.Column size={6}>Delphi</Columns.Column>
-                            <Columns.Column size={6}><Progress max={100} value={85} color="primary" size="small" /></Columns.Column>
+                            <Columns.Column>
+                                Delphi<br />
+                                <Progress max={100} value={85} color="primary" size="small" />
+                            </Columns.Column>
                         </Columns>
                         <Columns>
-                            <Columns.Column size={6}>ASP</Columns.Column>
-                            <Columns.Column size={6}><Progress max={100} value={85} color="primary" size="small" /></Columns.Column>
+                            <Columns.Column>
+                                ASP<br />
+                                <Progress max={100} value={85} color="primary" size="small" />
+                                </Columns.Column>
                         </Columns>
                         <Columns>
-                            <Columns.Column size={6}>PHP</Columns.Column>
-                            <Columns.Column size={6}><Progress max={100} value={85} color="primary" size="small" /></Columns.Column>
+                            <Columns.Column>
+                                PHP<br />
+                                <Progress max={100} value={85} color="primary" size="small" />
+                            </Columns.Column>
                         </Columns>
                         <Columns>
-                            <Columns.Column size={6}>jQuery</Columns.Column>
-                            <Columns.Column size={6}><Progress max={100} value={50} color="warning" size="small" /></Columns.Column>
+                            <Columns.Column>
+                                jQuery<br />
+                                <Progress max={100} value={50} color="warning" size="small" />
+                            </Columns.Column>
                         </Columns>
                         <Columns>
-                            <Columns.Column size={6}>Codeigniter</Columns.Column>
-                            <Columns.Column size={6}><Progress max={100} value={85} color="primary" size="small" /></Columns.Column>
+                            <Columns.Column>
+                                Codeigniter<br />
+                                <Progress max={100} value={85} color="primary" size="small" />
+                            </Columns.Column>
                         </Columns>
                     </Columns.Column>
                     <Columns.Column size={6}>
-                        <br />
                         <Columns>
-                            <Columns.Column size={6}>Yii2</Columns.Column>
-                            <Columns.Column size={6}><Progress max={100} value={85} color="primary" size="small" /></Columns.Column>
+                            <Columns.Column>
+                                Yii2<br />
+                                <Progress max={100} value={85} color="primary" size="small" />
+                            </Columns.Column>
                         </Columns>
                         <Columns>
-                            <Columns.Column size={6}>ReactJS</Columns.Column>
-                            <Columns.Column size={6}><Progress max={100} value={50} color="warning" size="small" /></Columns.Column>
+                            <Columns.Column>
+                                ReactJS<br />
+                                <Progress max={100} value={50} color="warning" size="small" />
+                            </Columns.Column>
                         </Columns>
                         <Columns>
-                            <Columns.Column size={6}>React Native</Columns.Column>
-                            <Columns.Column size={6}><Progress max={100} value={50} color="warning" size="small" /></Columns.Column>
+                            <Columns.Column>
+                                React Native<br />
+                                <Progress max={100} value={50} color="warning" size="small" />
+                            </Columns.Column>
                         </Columns>
                         <Columns>
-                            <Columns.Column size={6}>Flutter</Columns.Column>
-                            <Columns.Column size={6}><Progress max={100} value={50} color="warning" size="small" /></Columns.Column>
+                            <Columns.Column>
+                                Flutter<br />
+                                <Progress max={100} value={50} color="warning" size="small" />
+                            </Columns.Column>
                         </Columns>
                     </Columns.Column>
                 </Columns>
                 <hr />
                 <Columns>
-                    <Columns.Column size={6}>
-                        <h5>Network</h5>
+                    <Columns.Column><h5>Networking</h5></Columns.Column>
+                </Columns>
+                <Columns>
+                    <Columns.Column>
                         <Columns>
-                            <Columns.Column size={6}>Mikrotik</Columns.Column>
-                            <Columns.Column size={6}><Progress max={100} value={50} color="warning" size="small" /></Columns.Column>
+                            <Columns.Column>
+                                Mikrotik<br />
+                                <Progress max={100} value={50} color="warning" size="small" />
+                            </Columns.Column>
                         </Columns>
                         <Columns>
-                            <Columns.Column size={6}>Linux Server</Columns.Column>
-                            <Columns.Column size={6}><Progress max={100} value={65} color="info" size="small" /></Columns.Column>
+                            <Columns.Column>
+                                Linux Server<br />
+                                <Progress max={100} value={65} color="info" size="small" />
+                            </Columns.Column>
                         </Columns>
                     </Columns.Column>
                 </Columns>
