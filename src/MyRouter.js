@@ -28,6 +28,7 @@ const MyRouter = [
     {path: "/", exact: true, name: "Beranda", component: Layouts},
     {path: "/beranda", exact: true, name: "Beranda", component: Home},
     {path: "/portofolio", exact: true, name: "Project", component: Porto},
+    {path: "/portofolio/detail/:id", exact: true, name: "Project", component: Porto},
     {path: "/resume", exact: true, name: "Resume", component: Resum},
 ];
 
