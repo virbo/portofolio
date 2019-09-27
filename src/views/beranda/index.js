@@ -147,7 +147,7 @@ const Beranda = () => {
                     <Card.Content>
                         <Media>
                             <Media.Item>
-                                <Heading size={5}>Dosen Fakultas Teknik ( Universitas Muhammadiyah Luwuk )</Heading>
+                                <Heading size={5}>Tenaga Pengajar ( Universitas Muhammadiyah Luwuk )</Heading>
                                 <Heading subtitle size={6}>
                                     September 2009 - Sekarang
                                 </Heading>
@@ -156,9 +156,9 @@ const Beranda = () => {
                         {
                             !isUml ? null :
                             <Content>
-                                Melakukan pemeliharaan dan pengembangan terhadap perangkat komputer dan jaringan LAN/WAN. 
-                                Melakukan pengembangan aplikasi internal beserta website. Membantu akademik dalam hal pelaporan 
-                                data PDDIKTI.
+                                Melaksanakan kegiatan mengajar dan mendidik mahasiswa yang ada di fakultas teknik khususnya dan 
+                                mahasiswa Universitas Muhammadiyah Luwuk pada umumnya, 
+                                serta melaksanakan pengabdian terhadap masyarakat.
                             </Content>
                         }
                         <Button color="info" className="toggle" aria-label="togel" onClick={() => setUml(!isUml)}>{isUml ? 'Tutup' : 'Detail'}</Button>
