@@ -5,7 +5,7 @@ export default {
             url: '/beranda',
         },
         {
-            label: 'Portofolio',
+            label: 'Project',
             url: '/portofolio',
         },
         {
