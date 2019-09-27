@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import {faGithub, faLinkedin, faFacebook, faTwitter} from '@fortawesome/free-brands-svg-icons';
 
-import foto from '../../components/img/selfi.jpg';
+//import foto from 'https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/selfi.jpg';
 
 const Beranda = () => {
     const [isLp, setLp] = useState(false);
@@ -26,7 +26,7 @@ const Beranda = () => {
     return (
         <Columns>
             <Columns.Column size={6}>
-                <Image src={foto} alt="Yusuf Ayuba" />
+                <Image src="https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/selfi.jpg" alt="Yusuf Ayuba" />
                 <h1>Keahlian</h1>
                 <Columns>
                     <Columns.Column><h5>Pemrograman</h5></Columns.Column>
