@@ -12,7 +12,7 @@ const Footers = () => {
                         {'Copyright © '+new Date().getFullYear()+' '}
                         <a href="https://dutainformasi.net" target="_blank" rel="noopener noreferrer">
                             https://dutainformasi.net
-                        </a>.<br /> 
+                        </a><br /> 
                         Kode sumber situs ini tersedia di <a href="https://github.com/virbo/portofolio" target="_blank"  rel="noopener noreferrer">Github</a>
                     </p>
                 </Content>
