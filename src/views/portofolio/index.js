@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import {Skeleton} from '@material-ui/lab';
 
 import Section from 'react-bulma-components/lib/components/section';
+import Content from 'react-bulma-components/lib/components/content';
 import Heading from 'react-bulma-components/lib/components/heading';
 import Columns from 'react-bulma-components/lib/components/columns';
 import LazyImage from '../../components/images';
@@ -27,12 +28,12 @@ const Portofolio = () => {
 
     //console.log(isLoading);
     return (
-        <Section>
+        <Content>
             {
                 isLoading ? 
-                    <>
-                        <Heading size={3} renderAs="div"><Skeleton variant="rect" height={20} width={600} /></Heading>
-                        <Heading subtitle size={3} renderAs="div"><Skeleton variant="rect" height={17} width={200} /></Heading>
+                    <Content>
+                        <Heading size={3} renderAs="div"><Skeleton variant="rect" height={20} /></Heading>
+                        <Heading subtitle size={3} renderAs="div"><Skeleton variant="rect" height={17} /></Heading>
                         <Columns>
                             <Columns.Column size={3}>
                                 <Skeleton variant="rect" height={150} width={250} />
@@ -55,7 +56,7 @@ const Portofolio = () => {
                                 <Skeleton variant="rect" height={15} width={100} style={{marginTop: 10}} />
                             </Columns.Column>
                         </Columns>
-                    </>
+                    </Content>
                 :
                     <>
                         <Heading size={3} renderAs="div">Project yang pernah/sedang dikerjakan</Heading>
@@ -77,7 +78,7 @@ const Portofolio = () => {
                     </>
             }
             
-        </Section>
+        </Content>
     );
 }
 
