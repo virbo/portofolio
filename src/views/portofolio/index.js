@@ -58,7 +58,7 @@ const Portofolio = () => {
                         </Columns>
                     </Content>
                 :
-                    <>
+                    <Content>
                         <Heading size={3} renderAs="div">Project yang pernah/sedang dikerjakan</Heading>
                         <Heading size={5} subtitle renderAs="div">Klik untuk detailnya</Heading>
                         <Columns>
@@ -75,7 +75,7 @@ const Portofolio = () => {
                                 })
                             }
                         </Columns>
-                    </>
+                    </Content>
             }
             
         </Content>
