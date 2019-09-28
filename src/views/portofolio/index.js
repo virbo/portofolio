@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import {Link} from 'react-router-dom';
 import {Skeleton} from '@material-ui/lab';
 
-import Section from 'react-bulma-components/lib/components/section';
 import Content from 'react-bulma-components/lib/components/content';
 import Heading from 'react-bulma-components/lib/components/heading';
 import Columns from 'react-bulma-components/lib/components/columns';
@@ -32,28 +31,28 @@ const Portofolio = () => {
             {
                 isLoading ? 
                     <Content>
-                        <Heading size={3} renderAs="div"><Skeleton variant="rect" height={20} /></Heading>
-                        <Heading subtitle size={3} renderAs="div"><Skeleton variant="rect" height={17} /></Heading>
+                        <Heading size={3} renderAs="div"><Skeleton variant="rect" height={20} width="75%" /></Heading>
+                        <Heading subtitle size={3} renderAs="div"><Skeleton variant="rect" height={17} width="50%" /></Heading>
                         <Columns>
                             <Columns.Column size={3}>
-                                <Skeleton variant="rect" height={150} width={250} />
-                                <Skeleton variant="rect" height={15} width={250} style={{marginTop: 10}} />
-                                <Skeleton variant="rect" height={15} width={100} style={{marginTop: 10}} />
+                                <Skeleton variant="rect" height={150} />
+                                <Skeleton variant="rect" height={15} style={{marginTop: 10}} />
+                                <Skeleton variant="rect" height={15} width="50%" style={{marginTop: 10}} />
                             </Columns.Column>
                             <Columns.Column size={3}>
-                                <Skeleton variant="rect" height={150} width={250} />
-                                <Skeleton variant="rect" height={15} width={250} style={{marginTop: 10}} />
-                                <Skeleton variant="rect" height={15} width={100} style={{marginTop: 10}} />
+                                <Skeleton variant="rect" height={150} />
+                                <Skeleton variant="rect" height={15} style={{marginTop: 10}} />
+                                <Skeleton variant="rect" height={15} width="50%" style={{marginTop: 10}} />
                             </Columns.Column>
                             <Columns.Column size={3}>
-                                <Skeleton variant="rect" height={150} width={250} />
-                                <Skeleton variant="rect" height={15} width={250} style={{marginTop: 10}} />
-                                <Skeleton variant="rect" height={15} width={100} style={{marginTop: 10}} />
+                                <Skeleton variant="rect" height={150} />
+                                <Skeleton variant="rect" height={15} style={{marginTop: 10}} />
+                                <Skeleton variant="rect" height={15} width="50%" style={{marginTop: 10}} />
                             </Columns.Column>
                             <Columns.Column size={3}>
-                                <Skeleton variant="rect" height={150} width={250} />
-                                <Skeleton variant="rect" height={15} width={250} style={{marginTop: 10}} />
-                                <Skeleton variant="rect" height={15} width={100} style={{marginTop: 10}} />
+                                <Skeleton variant="rect" height={150} />
+                                <Skeleton variant="rect" height={15} style={{marginTop: 10}} />
+                                <Skeleton variant="rect" height={15} width="50%" style={{marginTop: 10}} />
                             </Columns.Column>
                         </Columns>
                     </Content>
