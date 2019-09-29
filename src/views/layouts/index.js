@@ -2,6 +2,7 @@ import React from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import Container from 'react-bulma-components/lib/components/container';
 import Content from 'react-bulma-components/lib/components/content';
+import Section from 'react-bulma-components/lib/components/section';
 
 import Header from './Header';
 import Footers from './Footer';
@@ -13,9 +14,9 @@ const Layouts = (props) => {
     return (
         <>
             <Header lokasi={lokasi} />
-            <Container style={{marginTop: 20, minHeight: 500}} fluid>
-                <Breadcrumbs route={MyRouter} lokasi={lokasi} />
-                <Content style={{marginTop: 20}}>
+            <Container style={{minHeight: 500}} fluid>
+                <Section>
+                    <Breadcrumbs route={MyRouter} lokasi={lokasi} />
                     <Switch>
                         {
                             MyRouter.map((router, key) => {
@@ -35,7 +36,7 @@ const Layouts = (props) => {
                         }
                         <Redirect from="/" to="/beranda" />
                     </Switch>
-                </Content>
+                </Section>
             </Container>
             <Footers />
         </>
