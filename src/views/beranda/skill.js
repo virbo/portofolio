@@ -18,18 +18,19 @@ const Skill = (props) => {
             <Columns>
                 <Columns.Column size={6}>
                     <h5>Pemrograman</h5>
+                    <Columns>
                     {
                         data.programs.map((item, key) => {
                             return (
-                                <Columns key={key}>
-                                    <Columns.Column>
-                                        {item.label}<br />
-                                        <Progress max={100} value={item.value} color={item.value > 50 ? "info" : "warning"} size="small" />
-                                    </Columns.Column>
-                                </Columns>
+                                <Columns.Column key={key} size={6}>
+                                    {item.label}<br />
+                                    <Progress max={100} value={item.value} color={item.value > 50 ? "info" : "warning"} size="small" />
+                                </Columns.Column>
+                                
                             );
                         })
                     }
+                    </Columns>
                 </Columns.Column>
                 <Columns.Column size={6}>
                     <h5>Network</h5>
