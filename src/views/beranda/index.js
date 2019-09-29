@@ -22,7 +22,7 @@ const Beranda = () => {
     }, [])
 
     return (
-        <>
+        <Content>
             <Columns>
                 <Columns.Column size={6}>
                     <Content style={{textAlign: 'center'}}>
@@ -204,7 +204,7 @@ const Beranda = () => {
                     </Columns>
                 </Columns.Column>
             </Columns>
-        </>
+        </Content>
     );
 }
 

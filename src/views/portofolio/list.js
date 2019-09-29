@@ -27,7 +27,7 @@ const List = (props) => {
                             {
                                 data.map((item, key) => {
                                     return (
-                                        <Columns.Column size={3} key={key}>
+                                        <Columns.Column size={3} key={key} style={{textAlign: 'center'}}>
                                             <Link to={`/portofolio/${item.id}`}>
                                                 <LazyImage src={item.thumb} />
                                                 <Heading size={6} subtitle renderAs="div" style={{textAlign: 'center'}}>{item.title}</Heading>
