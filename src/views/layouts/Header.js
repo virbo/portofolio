@@ -9,6 +9,8 @@ const Header = ( props ) => {
     const menus = menu.items;
     
     const lokasi = props.lokasi.pathname;
+    const split = lokasi.split("/");
+
     return (
         <Navbar
             color={'info'}
@@ -29,7 +31,7 @@ const Header = ( props ) => {
                     {
                         menus.map((item, key) => {
                             return (
-                                <Navbar.Item href={item.url} key={key} active={lokasi === item.url ? true : false}>{item.label}</Navbar.Item>
+                                <Navbar.Item href={item.url} key={key} active={`/${split[1]}` === item.url ? true : false}>{item.label}</Navbar.Item>
                             );
                         })
                     }<Navbar.Item href="https://dutainformasi.net" target="_blank">Blog</Navbar.Item>
