@@ -3,6 +3,9 @@ import Navbar from 'react-bulma-components/lib/components/navbar';
 import Container from 'react-bulma-components/lib/components/container';
 
 import menu from '../../components/menu';
+import LazyImage from '../../components/images';
+
+import logo from '../../components/images/logo-brand.png';
 
 const Header = ( props ) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +22,7 @@ const Header = ( props ) => {
             <Container fluid>
             <Navbar.Brand>
                 <Navbar.Item href="/beranda">
-                    YUSUFAYUBA
+                    <LazyImage src={logo} style={{marginTopn: 10}} />
                 </Navbar.Item>
                 <Navbar.Burger
                     //active={isOpen}
