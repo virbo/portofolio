@@ -1,0 +1,167 @@
+{
+  "dashboard" : {
+    "experience" : [ {
+      "description" : "Melakukan pemeliharaan dan pengembangan terhadap perangkat komputer dan jaringan LAN/WAN. Melakukan pengembangan aplikasi internal beserta website",
+      "id" : 1,
+      "periode" : "Januari 2009 - Agustus 2017",
+      "title" : "IT Support ( Luwuk Post )"
+    }, {
+      "description" : "Melakukan pemeliharaan dan pengembangan terhadap perangkat komputer dan jaringan LAN/WAN. Melakukan pengembangan aplikasi internal beserta website. Membantu akademik dalam hal pelaporan data PDDIKTI",
+      "id" : 2,
+      "periode" : "Desember 2009 - Sekarang",
+      "title" : "Kepala Unit Informasi dan Teknologi ( Akademi Keperawatan Luwuk )"
+    }, {
+      "description" : "Melaksanakan kegiatan mengajar dan mendidik mahasiswa yang ada di fakultas teknik khususnya dan mahasiswa Universitas Muhammadiyah Luwuk pada umumnya, serta melaksanakan pengabdian terhadap masyarakat",
+      "id" : 3,
+      "periode" : "September 2009 - Sekarang",
+      "title" : "Tenaga Pengajar ( Universitas Muhammadiyah Luwuk )"
+    } ],
+    "profil" : {
+      "description" : "Seorang full stack developer yang memiliki pengalaman lebih dari 10 tahun sebagai programmer. Selain itu saya juga bekerja sebagai tenaga pengajar di Universitas Muhammadiyah Luwuk",
+      "image" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/personal/selfi.jpg",
+      "salam" : "Hi, saya Yusuf Ayuba"
+    },
+    "skill" : {
+      "networks" : [ {
+        "label" : "Mikrotik",
+        "value" : 50
+      }, {
+        "label" : "Linux",
+        "value" : 70
+      } ],
+      "programs" : [ {
+        "label" : "Delphi",
+        "value" : 85
+      }, {
+        "label" : "ASP",
+        "value" : 85
+      }, {
+        "label" : "PHP",
+        "value" : 85
+      }, {
+        "label" : "Codeigniter",
+        "value" : 85
+      }, {
+        "label" : "Yii2 Framework",
+        "value" : 85
+      }, {
+        "label" : "jQuery",
+        "value" : 50
+      }, {
+        "label" : "ReactJS",
+        "value" : 50
+      }, {
+        "label" : "React Native",
+        "value" : 50
+      }, {
+        "label" : "Flutter",
+        "value" : 50
+      } ]
+    },
+    "sosmed" : {
+      "email" : "hello@yusufayuba.net",
+      "facebook" : "https://facebook.com/yusuf.web",
+      "github" : "https://github.com/virbo",
+      "linkedin" : "https://www.linkedin.com/in/yusufayuba",
+      "twitter" : "https://twitter.com/yusufayuba"
+    }
+  },
+  "menu" : [ {
+    "id" : 1,
+    "label" : "Beranda",
+    "url" : "/beranda"
+  }, {
+    "id" : 2,
+    "label" : "Project",
+    "url" : "/portofolio"
+  }, {
+    "id" : 3,
+    "label" : "Resume",
+    "url" : "/resume"
+  } ],
+  "projects" : [ {
+    "description" : "Membangun jaringan LAN/WAN PT. Luwuk Cemerlang di kantor baru jalan Imam Bonjol KM. 3",
+    "id" : 1,
+    "img" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/lanlp.jpg",
+    "tahun" : 2015,
+    "thumb" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/lanlp_thumb.jpg",
+    "title" : "Membangun jaringan LAN dan WAN PT Luwuk Cemerlang (Luwuk Post)"
+  }, {
+    "description" : "Membangun jaringan LAN/WAN Akademi Keperawatan Luwuk untuk mendukung kegiatan Akademik",
+    "id" : 2,
+    "img" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/lanlp.jpg",
+    "tahun" : 2010,
+    "thumb" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/lanlp_thumb.jpg",
+    "title" : "Membangun jaringan LAN/WAN dan Hotspot Akademi Keperawatan Luwuk"
+  }, {
+    "description" : "Aplikasi ini dikhususkan untuk memfasilitasi alumni dalam perubahan biodata di Pangkalan Data Pendidikan Tinggi (PDDIKTI)",
+    "id" : 3,
+    "img" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/biodata.png",
+    "tahun" : 2015,
+    "thumb" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/biodata_thumb.jpg",
+    "title" : "Aplikasi Pengisian Biodata Data Alumni"
+  }, {
+    "desccription" : "Aplikasi yang berfungsi sebagai wadah penyimpanan dokumen-dokumen digital yang dapat dibagi ke unit-unit kerja terdaftar",
+    "id" : 4,
+    "img" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/repository.png",
+    "tahun" : 2016,
+    "thumb" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/repository_thumb.jpg",
+    "title" : "Repository Politeknik Kelautan dan Perikanan Sorong"
+  }, {
+    "description" : "Aplikasi yang berfungsi pelacak/tracert data alumni. Aplikasi terdaftar fitur menampilkan lokasi Alumni berdasarkan alamat tinggal",
+    "id" : 5,
+    "img" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/direktorialumni.png",
+    "tahun" : 2016,
+    "thumb" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/direktorialumni_thumb.jpg",
+    "title" : "Direktori dan Peta Penyebaran Alumni Politeknik Kelautan dan Perikanan Sorong"
+  }, {
+    "description" : "Sistem Informasi Akademik yang terintegrasi dengan Aplikasi PDDIKTI Feeder",
+    "id" : 6,
+    "img" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/siakadsorong.png",
+    "tahun" : 2017,
+    "thumb" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/siakadsorong_thumb.jpg",
+    "title" : "Sistem Informasi Akademik Politeknik Kelautan dan Perikanan Sorong"
+  }, {
+    "description" : "Aplikas Webservice client PDDIKTI Feeder terintegrasi SIAKAD. Aplikasi ini berfungsi untuk melakukan sinkronisasi data dari SIAKAD ke PDDIKTI Feeder",
+    "id" : 7,
+    "img" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/stmiws.jpg",
+    "tahun" : 2017,
+    "thumb" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/stmiws_thumb.jpg",
+    "title" : "Webservice Client PDDIKTI Feeder Politeknik STMI Jakarta"
+  }, {
+    "description" : "Aplikasi bantu untuk pelaporan PDDIKTI Feeder",
+    "id" : 8,
+    "img" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/wsclient.jpg",
+    "tahun" : 2017,
+    "thumb" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/wsclient_thumb.jpg",
+    "title" : "Webservice Client PDDIKTI Feeder"
+  }, {
+    "description" : "Sistem Informasi terpadu yang berisikan aplikasi-aplikasi lain seperti remunerasi dosen, akademik kemahasiswaan, dan lain sebagainy",
+    "id" : 9,
+    "img" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/ofc.png",
+    "tahun" : 2018,
+    "thumb" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/ofc_thumb.jpg",
+    "title" : "One File Cabinet (OFC) Universitas Haluoleo Kendari (Team Work)"
+  }, {
+    "description" : "Sistem Informasi Akademik yang terintegrasi dengan PDDIKTI Feeder",
+    "id" : 10,
+    "img" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/siakadakper.png",
+    "tahun" : 2018,
+    "thumb" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/siakadakper_thumb.jpg",
+    "title" : "Sistem Informasi Akademik (SIAKAD) Akademi Keperawatan Luwuk"
+  }, {
+    "description" : "Aplikasi Real Count PILPRES 2019 dengan sumber data dari file JSON KPU",
+    "id" : 11,
+    "img" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/rcpilpers2019.png",
+    "tahun" : 2019,
+    "thumb" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/rcpilpers2019_thumb.jpg",
+    "title" : "Real Count PILPERS 2019"
+  }, {
+    "description" : "Aplikasi mobile Real Count PILPRES 2019 yang sumber data dari file JSON KPU",
+    "id" : 12,
+    "img" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/apprealcount2019.jpg",
+    "tahun" : 2019,
+    "thumb" : "https://s3-id-jkt-1.kilatstorage.id/cdn-yusufayuba/assets/img/project/apprealcount2019_thumb.jpg",
+    "title" : "Real Count PILPRES 2019 (Android)"
+  } ]
+}
